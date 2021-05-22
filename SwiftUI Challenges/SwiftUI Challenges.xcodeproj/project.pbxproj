@@ -11,6 +11,8 @@
 		9C239A1126596838002E34F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C239A1026596838002E34F3 /* ContentView.swift */; };
 		9C239A132659683A002E34F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C239A122659683A002E34F3 /* Assets.xcassets */; };
 		9C239A162659683A002E34F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C239A152659683A002E34F3 /* Preview Assets.xcassets */; };
+		9C239A1F265969E5002E34F3 /* MusicLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C239A1E265969E5002E34F3 /* MusicLibraryView.swift */; };
+		9C239A2326598754002E34F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9C239A2226598754002E34F3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9C239A122659683A002E34F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C239A152659683A002E34F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C239A172659683A002E34F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C239A1E265969E5002E34F3 /* MusicLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibraryView.swift; sourceTree = "<group>"; };
+		9C239A2226598754002E34F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		9C239A0D26596838002E34F3 /* SwiftUI Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				9C239A212659873B002E34F3 /* Music */,
 				9C239A0E26596838002E34F3 /* SwiftUI_ChallengesApp.swift */,
 				9C239A1026596838002E34F3 /* ContentView.swift */,
 				9C239A122659683A002E34F3 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				9C239A152659683A002E34F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C239A212659873B002E34F3 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				9C239A1E265969E5002E34F3 /* MusicLibraryView.swift */,
+				9C239A2226598754002E34F3 /* README.md */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C239A2326598754002E34F3 /* README.md in Resources */,
 				9C239A162659683A002E34F3 /* Preview Assets.xcassets in Resources */,
 				9C239A132659683A002E34F3 /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +155,7 @@
 			files = (
 				9C239A1126596838002E34F3 /* ContentView.swift in Sources */,
 				9C239A0F26596838002E34F3 /* SwiftUI_ChallengesApp.swift in Sources */,
+				9C239A1F265969E5002E34F3 /* MusicLibraryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
